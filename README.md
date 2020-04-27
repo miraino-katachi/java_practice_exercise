@@ -1,2 +1,2 @@
-# java_practice_exercise
-Javaの練習問題
+# Javaの練習問題
+
