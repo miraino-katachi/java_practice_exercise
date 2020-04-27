@@ -1,0 +1,98 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise01<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise01",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise02<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise02",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise03<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise03",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise04<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise04",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise05<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise05",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise06<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise06",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise07<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise07",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise08<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise08",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise10<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise10",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise11<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise11",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise12<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise12",
+            "projectName": "src_7e166915"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Exercise9<src_7e166915>",
+            "request": "launch",
+            "mainClass": "Exercise9",
+            "projectName": "src_7e166915"
+        }
+    ]
+}
