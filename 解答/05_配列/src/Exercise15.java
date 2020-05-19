@@ -2,9 +2,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-//import java.util.Collections;
+import java.util.Iterator;
 
-public class Exercise11 {
+public class Exercise15 {
 	public static void main(String[] args) throws IOException {
 		// TODO 自動生成されたメソッド・スタブ
 		ArrayList<Integer> array=new ArrayList<Integer>();
@@ -12,23 +12,31 @@ public class Exercise11 {
 
 		while(true){
 			String str=br.readLine();
-			int value=Integer.parseInt(str);
-			if(value==0) {
+			int n=Integer.parseInt(str);
+			if(n==0) {
 				break;
 			}
-			array.add(value);
+			array.add(n);
 		}
 
+		Iterator<Integer> it=array.iterator();
+		while(it.hasNext()) {
+			int n=it.next();
+			if(n==2) {
+				it.remove();
+			}
+		}
+
+
 		System.out.println();
-		for(int i=array.size()-1;i>=0;i--) {
+		for(int i=0;i<array.size();i++) {
 			System.out.print(array.get(i)+" ");
 		}
 
-		//Collections.reverse、拡張for文を使って以下のようにしても可
+		//拡張for文を使って以下のようにしても可
 		/*
-		Collections.reverse(array);
-		for(int i:array){
-			System.out.print(i+" ");
+		for(int n:array){
+			System.out.print(n+" ");
 		}
 		*/
 

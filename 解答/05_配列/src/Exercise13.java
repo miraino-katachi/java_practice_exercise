@@ -2,33 +2,30 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-//import java.util.Collections;
 
-public class Exercise11 {
+public class Exercise13 {
 	public static void main(String[] args) throws IOException {
 		// TODO 自動生成されたメソッド・スタブ
-		ArrayList<Integer> array=new ArrayList<Integer>();
+		ArrayList<String> array=new ArrayList<String>();
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
 		while(true){
 			String str=br.readLine();
-			int value=Integer.parseInt(str);
-			if(value==0) {
+			if(str.equals("")) {
 				break;
 			}
-			array.add(value);
+			array.add(str);
 		}
 
 		System.out.println();
-		for(int i=array.size()-1;i>=0;i--) {
+		for(int i=0;i<array.size();i++) {
 			System.out.print(array.get(i)+" ");
 		}
 
-		//Collections.reverse、拡張for文を使って以下のようにしても可
+		//拡張for文を使って以下のようにしても可
 		/*
-		Collections.reverse(array);
-		for(int i:array){
-			System.out.print(i+" ");
+		for(String s:array){
+			System.out.print(s+" ");
 		}
 		*/
 
