@@ -7,9 +7,20 @@ import java.util.ArrayList;
 public class Exercise11 {
 	public static void main(String[] args) throws IOException {
 		// TODO 自動生成されたメソッド・スタブ
+        
+        //位ごとに配列を管理する配列（２次元配列）
+        ArrayList<ArrayList> kuraiArray = new ArrayList<ArrayList>();
+
+        //入力用配列
 		ArrayList<Integer> array=new ArrayList<Integer>();
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-
+        
+        //格納用配列の作成
+        for(int i = 0 ; i < 10 ; i++){
+            kuraiArray.add(new ArrayList<Integer>());
+        }
+        
+        //入力
 		while(true){
 			String str=br.readLine();
 			int value=Integer.parseInt(str);
@@ -18,20 +29,9 @@ public class Exercise11 {
 			}
 			array.add(value);
 		}
-
-		System.out.println();
-		for(int i=array.size()-1;i>=0;i--) {
-			System.out.print(array.get(i)+" ");
-		}
-
-		//Collections.reverse、拡張for文を使って以下のようにしても可
-		/*
-		Collections.reverse(array);
-		for(int i:array){
-			System.out.print(i+" ");
-		}
-		*/
-
-		System.out.println();
+        
+        
+        
+        
 	}
 }
