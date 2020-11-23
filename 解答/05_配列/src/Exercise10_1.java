@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Exercise12_1 {
+public class Exercise10_1 {
 	public static void main(String[] args){
 		ArrayList<ArrayList<Integer>> list=new ArrayList<ArrayList<Integer>>();
 
