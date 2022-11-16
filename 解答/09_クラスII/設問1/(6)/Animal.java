@@ -1,3 +1,7 @@
+/**
+ * 動物クラス
+ *
+ */
 public class Animal {
 
 	/** 名前 */
@@ -18,4 +22,5 @@ public class Animal {
 	public void speak() {
 		System.out.println("......");
 	}
+
 }
