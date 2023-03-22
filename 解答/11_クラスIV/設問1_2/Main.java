@@ -22,7 +22,7 @@ public class Exercise01_2 {
     }
  
     //  コンピュータとしての処理
-    public static void funcComputer(Computer computer) {
+    public static void funcComputer(IComputer computer) {
         computer.playGame();    //  ゲームをする
         computer.browseWeb();   //  ウェブを閲覧する
     }
